@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_input"
+            android:title="Input" />
+        <item
+            android:id="@+id/nav_viewer"
+            android:title="Viewer" />
+        <item
+            android:id="@+id/nav_match"
+            android:title="Match" />
+    </group>
+
+    <item android:title="Export">
+        <menu>
+            <item
+                android:id="@+id/nav_usb"
+                android:title="Via USB" />
+            <item
+                android:id="@+id/nav_bluetooth"
+                android:title="Via Bluetooth" />
+        </menu>
+    </item>
+
+</menu>
